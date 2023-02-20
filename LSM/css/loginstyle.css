@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.total {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(105, 110, 182);
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+nav {
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 10px;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  flex: 1;
+}
+
+.logo h1 {
+  font-size: xx-large;
+  font-style: italic;
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  padding: 15px 40px;
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  background-color: rgb(27, 24, 24);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgb(19, 15, 15);
+}
+
+.menu-icon {
+  width: 50px;
+  margin-left: 30px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  max-height: fit-content;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 20px;
+
+}
+
+.col1,
+.col2 {
+  flex-basis: 45% 55%;
+
+}
+
+.col1 {
+  padding: 10% 6%;
+}
+
+.col1 h1 {
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.col1 p {
+  color: #777;
+  line-height: 22px;
+  margin: 15px 0 30px;
+}
+
+.col2 img {
+  width: 100%;
+  height: fit-content;
+}
+
+
+ul {
+  position: absolute;
+  bottom: 100px;
+  left: 160px;
+}
+
+ul li {
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: #bfbfbf;
+  border-radius: 50%;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.active {
+  background: black;
+}
+
+.box {
+  overflow: hidden;
+}
+
+#features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#features .fea-base {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+
+#features .fea-box {
+  background: #F9F9FF;
+  text-align: start;
+}
+
+#features .fea-box i {
+  font-size: 2.3rem;
+  color: rgb(44, 44, 80);
+
+}
+
+#features .fea-box h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(46, 46, 59);
+  padding: 13px 0 7px 0;
+}
+
+#features .fea-box h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(46, 46, 59);
+
+}
+
+#features .submit-btn {
+  width: 40%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #21ace2, #0670a1);
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+}
+
+#course {
+  padding: 8vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#course .course-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+
+}
+
+#course .courses {
+  text-align: start;
+  background: #F9F9FF;
+  height: 100%;
+}
+
+#course .courses img {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+#course .submit-btn {
+  width: 20%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #21ace2, #0670a1);
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+}
+
+#login .button-box {
+  position: relative;
+  width: 120px;
+  margin: 35px auto;
+  box-shadow: 0 0 20px 9px #ff24241f;
+  border-radius: 30px;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bha.jpg);
+  background-position: center;
+  position: absolute;
+}
+
+.form-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: rgb(230, 230, 238);
+  padding: 5px;
+  overflow: hidden;
+}
+
+.button-box {
+  position: relative;
+  width: 220px;
+  margin: 35px auto;
+  box-shadow: 0 0 20px 9px #ff24241f;
+  border-radius: 30px;
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: .5s;
+
+}
+
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.chech-box {
+  margin: 30px 10px 30px 0;
+}
+
+#login .input-group span {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+footer{
+  padding: 8vw;
+  background-color: #101c32;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+footer .footer-col{
+  padding-bottom: 40px;
+}
+footer h3{
+  color: rgb(241,240,245);
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+footer li{
+  list-style: none;
+  color: #7b838a;
+  padding: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+footer li:hover{
+  color: rgb(241,240,245);
+}
+footer p{
+  color: #7b838a;
+}
+footer .subscribe{
+  margin-top: 20px;
+}
+footer input{
+  width: 220px;
+  padding: 15px 12px;
+  background: #334F6C;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+footer .footer-col .sub .submit-btn{
+  width: 20%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+}
+footer .copyright{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+footer .copyright .pro-links{
+  margin-top: 0px;
+}
+footer .copyright .pro-links i{
+  background-color: #5f7185;
+  color: #fff;
+}
+footer .copyright .pro-links i:hover{
+  background-color: #f8d407;
+  color: #161515;
+}
